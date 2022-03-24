@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Khalid" />
+    <meta
+      name="description"
+      content="Contact inforamation for the Cafe Rumi "
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Contact Us</title>
+    <link rel="icon" href="rumi.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#about">About us</a></li>
+          <li><a href="/#menu">Menu</a></li>
+          <li><a href="hours.html">Cafe Hours</a></li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="https://c.ndtvimg.com/2021-01/78btgdc_pizza_625x300_15_January_21.jpg"
+          width="450"
+          alt="Pizza"
+        />
+        <figcaption>A Mouth Watering Pizza from Our Cafe</figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2>Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send us a Message</legend>
+            <p>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your Message</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type Your Message here."
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Location</h2>
+        <address>
+          Cafe Rumi,<br />
+          Main town Dooru,<br />
+          opposite GHSS DOORU.
+          <br /><br />
+          Phone: <a href="tel:+917006602813">+917006602813</a>
+        </address>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>Copyright &copy; Cafe Rumi</p>
+    </footer>
+  </body>
+</html>

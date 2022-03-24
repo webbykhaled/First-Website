@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Khalid" />
+    <meta name="description" content="This website is about the Cafe Rumi" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Cafe Rumi</title>
+    <link rel="icon" href="rumi.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Cafe Rumi</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="hours.html">Working Hours</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+          width="450"
+        />
+        <figcaption>A delicious Kebab from Cafe Rumi</figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <article id="about">
+        <h2>About <abbr title="Cafe Rumi">Cafe Rumi</abbr></h2>
+        <p>
+          <abbr title="Cafe Rumi">Cafe Rumi</abbr> was founded in
+          <time datetime="2022">2022</time>. Our Cafe was built from a
+          <strong>love of Biryani</strong> 🍗🍗🍗 . We hope our Cafe adds a
+          unique and intresting place to our little town.
+        </p>
+        <aside>
+          <h3>Briyani Trivia</h3>
+          <details>
+            <summary>when did Biryani first appeared in India?</summary>
+            <p>
+              While there are multiple theories about how biryani made its way
+              to India, it is generally accepted that it originated in West
+              Asia. One legend has it that the Turk-Mongol conqueror, Timur,
+              brought the precursor to the biryani with him when he arrived at
+              the frontiers of India in <time datetime="1398">1398.</time>.
+              (source:
+              <cite
+                ><a
+                  href="https://www.thebetterindia.com/60553/history-biryani-india/#:~:text=While%20there%20are%20multiple%20theories,it%20originated%20in%20West%20Asia.&text=One%20legend%20has%20it%20that,frontiers%20of%20India%20in%201398."
+                  target="_blank"
+                  >The Better India</a
+                ></cite
+              >)
+            </p>
+          </details>
+        </aside>
+      </article>
+      <hr />
+      <article id="menu">
+        <h2>Our Menu</h2>
+        <table cellpadding="5">
+          <caption>
+            Our Delicious Cuisine
+          </caption>
+          <thead>
+            <tr>
+              <th>Biryani</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Chicken</th>
+              <td>1</td>
+              <td>₨180</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>₨300</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>₨420</td>
+            </tr>
+            <tr>
+              <th scope="row" rowspan="3">Mutton</th>
+              <td>1</td>
+              <td>₨200</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>₨350</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>₨470</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Pizza &amp; Chips:₨540</td>
+            </tr>
+          </tfoot>
+        </table>
+        <br />
+        <p>
+          <a href="#">Back to top.</a>
+        </p>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <p>Copyright &copy; Cafe Rumi</p>
+    </footer>
+  </body>
+</html>

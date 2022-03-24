@@ -1,0 +1,37 @@
+html {
+  font-size: 22px;
+}
+
+h1 {
+  font-family: fantasy;
+  padding: 2;
+}
+
+body {
+  background-color: white;
+  color: #0a0a0a;
+}
+
+a {
+  color: rgb(41, 18, 240);
+}
+
+a:visited {
+  color: rgb(11, 11, 12);
+}
+
+a:hover,
+a:active {
+  color: rgb(160, 11, 11);
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 12px solid rgb(88, 92, 91);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-collapse: initial;
+  padding: 0.8rem;
+}
